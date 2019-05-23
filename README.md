@@ -6,3 +6,7 @@ In this example, you can get the ViewController user's location from CoreLocatio
 
 This is achieved with the user of Swift protocol, the delegate pattern and completion handlers.
 
+For more useful tips and tricks, checkout [My Day To-Do blog].
+
+
+[My Day To-Do blog]: http://mydaytodo.com/blog

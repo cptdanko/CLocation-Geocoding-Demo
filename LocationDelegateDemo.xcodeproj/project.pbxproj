@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C64D844923248DD000452D26 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D844823248DD000452D26 /* IAPService.swift */; };
+		C64D844B23248E0000452D26 /* MDTIapProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D844A23248E0000452D26 /* MDTIapProduct.swift */; };
+		C64D844D23248FCE00452D26 /* IAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64D844C23248FCE00452D26 /* IAPViewController.swift */; };
 		C6825AF12296458100DF7AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6825AF02296458100DF7AD9 /* AppDelegate.swift */; };
 		C6825AF32296458100DF7AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6825AF22296458100DF7AD9 /* ViewController.swift */; };
 		C6825AF62296458100DF7AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6825AF42296458100DF7AD9 /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C64D844823248DD000452D26 /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+		C64D844A23248E0000452D26 /* MDTIapProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDTIapProduct.swift; sourceTree = "<group>"; };
+		C64D844C23248FCE00452D26 /* IAPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPViewController.swift; sourceTree = "<group>"; };
 		C6825AED2296458100DF7AD9 /* LocationDelegateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationDelegateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6825AF02296458100DF7AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6825AF22296458100DF7AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C64D844723248D9600452D26 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				C64D844823248DD000452D26 /* IAPService.swift */,
+				C64D844A23248E0000452D26 /* MDTIapProduct.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
 		C6825AE42296458100DF7AD9 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +75,7 @@
 		C6825AEF2296458100DF7AD9 /* LocationDelegateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C64D844723248D9600452D26 /* IAP */,
 				C6825AF02296458100DF7AD9 /* AppDelegate.swift */,
 				C6825AF22296458100DF7AD9 /* ViewController.swift */,
 				C6825AF42296458100DF7AD9 /* Main.storyboard */,
@@ -67,6 +83,7 @@
 				C6825AF92296458300DF7AD9 /* LaunchScreen.storyboard */,
 				C6825AFC2296458300DF7AD9 /* Info.plist */,
 				C6825B052296467700DF7AD9 /* LocationHelper.swift */,
+				C64D844C23248FCE00452D26 /* IAPViewController.swift */,
 			);
 			path = LocationDelegateDemo;
 			sourceTree = "<group>";
@@ -152,7 +169,10 @@
 			files = (
 				C6825B062296467700DF7AD9 /* LocationHelper.swift in Sources */,
 				C6825AF32296458100DF7AD9 /* ViewController.swift in Sources */,
+				C64D844923248DD000452D26 /* IAPService.swift in Sources */,
+				C64D844B23248E0000452D26 /* MDTIapProduct.swift in Sources */,
 				C6825AF12296458100DF7AD9 /* AppDelegate.swift in Sources */,
+				C64D844D23248FCE00452D26 /* IAPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
